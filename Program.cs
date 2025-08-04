@@ -26,5 +26,7 @@ class Program
                               $"Age: {worksheet.Cells[row, 4].Text}, " +
                               $"JoinDate: {worksheet.Cells[row, 5].Text}");
         }
+
+        Console.WriteLine($"\nTotal number of data rows: {rowCount - 1}");
     }
 }
